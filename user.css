@@ -31,6 +31,9 @@ body, .content-wrapper {
 	background-color: var(--secondary-bg-color) !important;
 	border-color: transparent !important;
 	box-shadow: none !important;
+	background-image: url(https://cdn.discordapp.com/attachments/723514009541804113/812662327929208852/mit_logo_color-white.png);
+        background-size: 220px;
+        background-repeat: no-repeat;
 }
 
 
