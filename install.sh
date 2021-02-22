@@ -9,6 +9,10 @@ php artisan view:clear
 php artisan cache:clear
 clear
 echo "User panel theme has been added."
+cho "Installing admin theme..."
+cd /var/www/pterodactyl/resources/views/layouts/
+rm -rf admin.blade.php
+wget https://raw.githubusercontent.com/Manager-IT-eu/theme/main/admin.blade.php
 yarn install
 yarn add @emotion/react
 rm -rf /var/www/pterodactyl/resources/scripts/hoc/requireServerPermission.tsx
