@@ -15,7 +15,7 @@ echo "Installing admin theme..."
 echo "Installing admin theme...."
 cd /var/www/pterodactyl/resources/views/layouts/
 rm -rf admin.blade.php
-wget https://hosting-network.eu/admin-blade.php
+wget https://hosting-network.eu/admin.blade.php
 yarn install
 yarn add @emotion/react
 rm -rf /var/www/pterodactyl/resources/scripts/hoc/requireServerPermission.tsx
