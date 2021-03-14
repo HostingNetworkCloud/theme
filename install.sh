@@ -8,14 +8,6 @@ cd ../..
 php artisan view:clear
 php artisan cache:clear
 clear
-echo "User panel theme has been added."
-echo "Installing admin theme."
-echo "Installing admin theme.."
-echo "Installing admin theme..."
-echo "Installing admin theme...."
-cd /var/www/pterodactyl/resources/views/layouts/
-rm -rf admin.blade.php
-wget https://hosting-network.eu/admin.blade.php
 yarn install
 yarn add @emotion/react
 rm -rf /var/www/pterodactyl/resources/scripts/hoc/requireServerPermission.tsx
@@ -25,4 +17,4 @@ php /var/www/pterodactyl/artisan up
 php /var/www/pterodactyl/artisan view:clear
 php /var/www/pterodactyl/artisan cache:clear
 clear
-echo "Admin theme install complete, Make sure to shift + refresh your page!"
+echo "Fertig"
